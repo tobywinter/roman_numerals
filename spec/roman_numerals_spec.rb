@@ -36,4 +36,8 @@ describe 'solution' do
   it 'returns "MMMMDIII" when passed "4503"' do
     expect(solution(4503)).to eq "MMMMDIII"
   end
+
+  it 'returns "" when passed "0"' do 
+    expect(solution(0)).to eq ""
+  end
 end
